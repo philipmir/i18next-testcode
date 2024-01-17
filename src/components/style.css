@@ -1,0 +1,28 @@
+/* style.css */
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Optional: Add styles for different languages if needed */
+button[data-language='en'] {
+    background-color: #3498db;
+    color: #fff;
+}
+
+button[data-language='es'] {
+    background-color: #e74c3c;
+    color: #fff;
+}
